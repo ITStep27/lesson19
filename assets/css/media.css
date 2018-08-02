@@ -1,0 +1,77 @@
+@media only screen and (max-width:992px) 
+{
+    aside {
+        display: none;
+    }
+    .content {width: 100%;}
+    header {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content:space-between;
+        align-items:flex-start;
+        background-color: lightgray;
+        font-size: 1.5em;
+    }
+    header img {
+        border-radius: 50%;
+        width: 50px;height: 50px;
+        cursor: pointer;
+    }
+    header img:hover {
+        opacity:0.5;
+    }
+    header i {
+        display: inline-block;
+        padding: 10px;
+        cursor: pointer;
+    }
+    header i:hover {
+        background-color: darkgray;
+    }
+}
+@media only screen and (max-width:768px) 
+{
+    main .photo {
+        flex-direction: column;
+        align-items:center;
+    }
+    main .photo .imgbox {
+        width: 100%;
+        height: auto;
+    
+    }
+    main .photo .imgbox2 {
+        width: 100%;
+        height: auto;
+    
+    }
+    .level {
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .level .basic, .level .premium, .level .pro{
+        width: 90%;
+    }
+    .contacts {
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .c1, .c2 {
+        width: 90%;
+    }
+    footer {
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    footer .box {
+        width: 90%;
+        margin: 25px 0;
+    }
+    main a#photos, a#art {
+        display: none;
+    }
+}

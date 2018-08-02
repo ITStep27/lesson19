@@ -1,0 +1,4 @@
+@keyframes anima {
+	from {left: -300px;}
+	to {left: 0;}
+}
